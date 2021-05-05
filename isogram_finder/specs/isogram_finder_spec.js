@@ -1,5 +1,5 @@
 const assert = require('assert');
-const IsogramFinder = require('./isogram_finder.js');
+const IsogramFinder = require('../models/isogram_finder.js');
 
 describe('IsogramFinder', function () {
   it('should be able to detect an isogram', function () {
