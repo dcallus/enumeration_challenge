@@ -1,5 +1,5 @@
 const assert = require('assert');
-const PangramFinder = require('./pangram_finder.js');
+const PangramFinder = require('../models/pangram_finder.js');
 
 describe('PangramFinder', function () {
   it('should be able to detect a pangram', function () {
